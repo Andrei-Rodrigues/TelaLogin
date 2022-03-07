@@ -8,13 +8,14 @@ body{
     height: 100%;
     display: flex;
     justify-content: center;
-    background-color: cadetblue;
+    background-image: url("fundotela.jpg");
 }
 
 div{
     width: 500px;
-    height: 450px;
-    background-color: darkslategrey;
+    height: 410px;
+    background-color: whitesmoke;
+    opacity: 0.850;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -23,15 +24,27 @@ div{
     text-align: center;
 }
 
+h1{
+    color: darkslategrey;
+    font-size: 200%;
+    font-family: sans-serif;
+}
+
 form{
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    font-size: 100%;
-    margin-top: 10%;
-    height: 40%;
+    align-items: center;
+    width: 100%;
 }
 
 input{
-    height: 15%;
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button{
+    width: 25%;
+    border-radius: 50px;
+    height: 35px;
 }
